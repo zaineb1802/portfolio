@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;  
 }
 body{
-    background-color: #0F212D;
+    background-color: #1d0029;
     color: #f0ecec;
 }
 
@@ -16,7 +16,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/cover-back.png);
+    background-image: url(../images/cover-back.jpg);
     background-position: center;
 }
 
@@ -82,7 +82,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:focus,
 nav ul li a:hover {
-  background: rgba(243, 99, 4, 0.79); 
+  background: rgba(193, 72, 130, 0.79); 
   box-shadow: 0 0 10px rgba(228, 165, 16, 0.6); 
 }
 
@@ -116,7 +116,7 @@ nav{
   bottom: 30px;
   right: 30px;
   z-index: 1000;
-  background-color: rgba(243, 99, 4, 0.79); 
+  background-color: rgba(193, 72, 130, 0.79);
   color: rgb(0, 0, 0);
   border: none;
   outline: none;
@@ -131,7 +131,7 @@ nav{
 }
 
 #scrollTopBtn:hover {
-  background-color: rgba(240, 116, 33, 0.79);
+  background-color: rgba(235, 90, 160, 0.89);
   transform: scale(1.1);
 }
 

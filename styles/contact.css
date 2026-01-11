@@ -4,14 +4,22 @@
 .contactright{
     flex-basis: 60%;
 }
+.contactright input,
+.contactright textarea {
+    color: #ffffff; /* This changes text color in Name, Email, AND Message */
+}
+
+.contactright input::placeholder,
+.contactright textarea::placeholder {
+    color: #ffffff; /* This changes placeholder color in all fields */
+}
 
 .contactleft p{
     margin-top: 30px;
-
 }
 
 .contactleft p i{
-    color: #f97316;
+    color: #C8577C ;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -24,7 +32,7 @@
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #e0e0e0;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -37,7 +45,7 @@
 .btn.btn2{
     display: inline-block;
     padding: 10px 20px 10px 20px;
-    background: #f97316;
+    background: #04051F;
     font-size: 20px;
 }
 .contactright form{
@@ -47,7 +55,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background:#3F3F46 ;
+    background:#C14882  ;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -67,7 +75,6 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #0F212D;
     font-weight:300 ;
     margin-top: 20px;
 }
