@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;  
+}
+body{
+    background-color: #0F212D;
+    color: #f0ecec;
+}
+
+#header{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/cover-back.png);
+    background-position: center;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.container{
+    padding: 10px 5% ;
+}
+
+.logo{
+    width: 150px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none ;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a.highlight:hover{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #7a8492;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.15s;
+}
+
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  position: relative;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 14px;
+  transition: 0.2s;
+}
+
+nav ul li a.active,
+nav ul li a:focus,
+nav ul li a:hover {
+  background: rgba(243, 99, 4, 0.79); 
+  box-shadow: 0 0 10px rgba(228, 165, 16, 0.6); 
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.headertext{
+    margin-top: 20%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.headertext h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.paragraph p{
+    font-size: 60px;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  background-color: rgba(243, 99, 4, 0.79); 
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background-color: rgba(240, 116, 33, 0.79);
+  transform: scale(1.1);
+}
+
+#scrollTopBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+

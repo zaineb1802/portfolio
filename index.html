@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaineb Darchem | AI Engineer</title>
+
+    <link rel="icon" href="Images/emoji_image.png" type="image/png">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/about.css">
+    <link rel="stylesheet" href="Styles/projects.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link rel="stylesheet" href="Styles/phonescreencss.css">
+    <script src="https://kit.fontawesome.com/c3d1923c62.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+   <div id="header">
+    
+        <div class="container">
+            <nav>
+                
+                <a href="index.html" style="text-decoration: none; color: inherit;"><h1>Explore my learning journey</h1></a>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <h1>Hi, I'm Zaineb Darchem</h1>
+                <div class="socialicons">
+                    <a href="https://github.com/zaineb1802", target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/zaineb-darchem/", target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                   <a href="Files/Zaineb Darchem_resume.pdf" download class="btn btn2">CV (EN)</a> 
+                </div>               
+        </div>
+    </div>
+ 
+
+    <!-------about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/taswira.png" >
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I’m an engineering student with a strong interest in applied mathematics, data science and AI. I enjoy turning complex problems into practical, data-driven solutions, whether through analysis, modeling, or machine learning. This space is my personal log where I experiment, learn, and build; exploring how data turns into insight and ideas become real-world impact. Each project reflects curiosity, problem-solving, and a constant drive to grow.</p>
+                
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('activities')">Activities</p>
+                    </div>
+
+                    <div class="tabcontents activetab" id="Skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>Python, C, C++, JAVA, SQL, MATLAB, HTML, CSS, JavaScript</li>
+                            <li><span>Data Science:</span><br>Pandas, Tensorflow, NumPy, Matplotlib, Seaborn, PowerBI</li>
+                            <li><span>Other Tools: </span><br>Git, Github</li>                                      
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>Internship - National Agricultural Bank (BNA)</span><br>
+                                - Built automated data preprocessing pipelines using Python for analytics and accounting tasks<br>
+                                - Cleaned, transformed, and merged large financial datasets, significantly reducing processing time<br>
+                                - Prepared high-quality data for modeling and dashboard refreshes through integrated Power BI workflows<br>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>Current Education</span><br>2nd-year Applied Mathematics and Modeling engineering student at ENSIT, specializing in Data Science and AI.</li>       
+                            <li><span>Pre-engineering Degree</span><br>2 years - Maths & Physics at IPEIT</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="activities">
+                        <ul>
+                            <li><span>NerData ENSIT Club - 2 years</span><br>
+                                - Project Manager of the club<br>
+                                - Conducted ML workshops and mini hackathons<br>
+                                - Mentored participants in AI and data science projects</li>
+                            <li><span>Community Engagement</span><br>
+                                - Active participation in competitive programming contests and AI hackathons<br>
+                                - Organized club events to foster learning<br>
+                                - Contributed as part of the organizing committee for club events
+                            </li>
+                        </ul>
+                        <a href="Files/Rapport Socio-culturel.pdf" download 
+                            style="font-size: 0.9em; margin-top: 1rem; display: inline-block; color: white; text-decoration: none;">
+                            See more →
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="worklist">
+                
+                <div class="work">
+                    <img src="images/Background-pic.png">
+                    <div class="layer">
+                        <h3>HealthCast</h3>
+                        <p>Following the participation in SENECA HACK 2025, Healthcast is an AI-powered app that transforms a simple natural language prompt about your health, lifestyle, and goals into a personalized fitness & nutrition plan. It produces an engaging podcast-style audio file along with a short markdown summary that acts as a quick guide.</p>
+                        <a href="https://github.com/zaineb1802/healthcast"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Background-pic.png">
+                    <div class="layer">
+                        <h3>WTI Crude Oil Price Prediction</h3>
+                        <p>An academic AI-driven project that leverages historical market data to forecast WTI crude oil prices. The interactive Streamlit web app allows users to explore trends, visualize predictions, and gain clear insights into future price movements.</p>
+                        <a href="https://zaineb1802-price-prediction-app-app-snyhrv.streamlit.app/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="https://github.com/zaineb1802" class="btn", target="_blank">See More</a>
+        </div>
+    </div>
+<!--------Contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a style="color: white;" href="mailto:zainebdarchem@gmail.com">zainebdarchem@gmail.com</a></p>
+                    <div class="socialicons">
+                    <a href="https://github.com/zaineb1802", target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/zaineb-darchem/", target="_blank"><i class="fa-brands fa-linkedin"></i></a>                        
+                    </div>
+                    <a href="Files/Zaineb Darchem_resume.pdf" download class="btn btn2">CV (EN)</a>
+                               
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    © 2025 Zaineb Darchem. All rights reserved
+                </p>
+            </div>
+        <button id="scrollTopBtn" title="Go to top">↑</button>
+
+        </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tablinks")
+    var tabcontents = document.getElementsByClassName("tabcontents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+</script>
+
+<!-------Js for the side menu of the phone---->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfvBpqW4K2tYLTqzitQMfML8UFj2333F8Ln2ri70hOvMMycG3xNTffUY5keRdYOCfy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", () => {
+    const headerHeight = document.getElementById("header").offsetHeight;
+    if (window.scrollY > headerHeight) {
+      scrollTopBtn.classList.add("show");
+    } else {
+      scrollTopBtn.classList.remove("show");
+    }
+  });
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+<!-- <script src="Scripts/fireworks_effect.js"></script> -->
+
+</body>
+</html> 
