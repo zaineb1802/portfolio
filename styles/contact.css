@@ -38,15 +38,18 @@
 }
 
 .socialicons a:hover{
-    color: #f97316;
+    color: #C14882;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
     padding: 10px 20px 10px 20px;
-    background: #04051F;
+    background: #2a0949;
     font-size: 20px;
+}
+.btn.btn2:hover{
+    background: #C14882;
 }
 .contactright form{
     width: 100%;
