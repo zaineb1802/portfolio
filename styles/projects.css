@@ -88,3 +88,33 @@
     .worklist{ grid-template-columns: 1fr; }
     .work{ height: 460px; }                  /* narrower cards need a bit more room for the text */
 }
+
+
+.worklist {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+}
+
+.work {
+    height: 380px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.layer {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media (max-width: 700px) {
+    .worklist { 
+        grid-template-columns: 1fr !important; 
+    }
+    .work { 
+        height: 460px !important; 
+    }
+}
