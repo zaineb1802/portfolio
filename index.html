@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/phonescreencss.css">
     <script src="https://kit.fontawesome.com/c3d1923c62.js" crossorigin="anonymous"></script>
+
 </head>
 
 
@@ -67,7 +68,7 @@
                         <ul>
                             <li><span>Programming Languages:</span><br>Python, C, C++, JAVA, SQL, MATLAB, R, HTML, CSS, JavaScript</li>
                             <li><span>Data Science:</span><br>Pandas, Tensorflow, Pytorch, NumPy, Matplotlib, Seaborn, PowerBI</li>
-                            <li><span>AI:</span><br>LangGraph, Hugging Face, Transformers, RAG, NLP, DL</li>
+                            <li><span>AI:</span><br>LangGraph, Hugging Face, Transformers, RAG, NLP, DL, CV, YOLO</li>
                             <li><span>Mathematics:</span><br>Linear algebra, probability distributions, statistical inference, optimization</li>
                             <li><span>Competitive Programming:</span><br>see my 
                                 <a href="https://codeforces.com/profile/1_8_0_2" style="color:white;" target="_blank">Codeforces</a> 
@@ -132,9 +133,9 @@
                 <div class="work">
                     <img src="images/Background-pic.jpg">
                     <div class="layer">
-                        <h3>HealthCast</h3>
-                        <p>Following the participation in the 48h SENECA HACK 2025, Healthcast is an AI-powered app that transforms a simple natural language prompt about your health, lifestyle, and goals into a personalized fitness & nutrition plan. It produces an engaging podcast-style audio file along with a short markdown summary that acts as a quick guide.</p>
-                        <a href="https://github.com/zaineb1802/healthcast"><i class="fa-solid fa-link"></i></a>
+                        <h3>CardioAgent-Ops</h3>
+                        <p>A containerized, end-to-end clinical decision platform for cardio-acoustic analysis of heart sounds (PCG). It merges the PASCAL and PhysioNet datasets and benchmarks five models (Decision Tree, SVM, custom CNN, ResNet transfer learning, Transformer-CNN), tracked in MLflow. The best model by recall on the pathological class is exported to ONNX. A QLoRA fine-tuned LLM, served locally with Ollama/vLLM, works with a RAG pipeline over ESC clinical guidelines and a LangGraph multi-agent chain (Analyst, Cardiologist, Auditor). Pydantic guardrails validate outputs. The platform runs as 6 Docker Compose micro-services behind a FastAPI gateway, with a Pytest and GitHub Actions CI/CD pipeline.</p>
+                        <a href="https://github.com/zaineb1802/private"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
 
@@ -146,7 +147,25 @@
                         <a href="https://github.com/zaineb1802/AutoInsight"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
-               
+
+                <div class="work">
+                    <img src="images/Background-pic.jpg">
+                    <div class="layer">
+                        <h3>HealthCast</h3>
+                        <p>Following the participation in the 48h SENECA HACK 2025, Healthcast is an AI-powered app that transforms a simple natural language prompt about your health, lifestyle, and goals into a personalized fitness & nutrition plan. It produces an engaging podcast-style audio file along with a short markdown summary that acts as a quick guide.</p>
+                        <a href="https://github.com/zaineb1802/healthcast"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Background-pic.jpg">
+                    <div class="layer">
+                        <h3>UniManage</h3>
+                        <p>A desktop application built with WinDev to manage university student records and grades. It has role-based login for admins, teachers and students, each with its own dashboard. Admins manage teachers, students, departments, modules, programs, exam dates and news. Teachers enter grades. Students see their grades, module averages and credits, attendance, and the modules they have to retake. Grade calculation and semester reports (PV) are automated. The app also includes statistics, an annual calendar, PDF document sharing, filters in every window, and password-confirmed deletion with link checks.</p>
+                        <a href="https://github.com/zaineb1802/PFA"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
             </div>
             <a href="https://github.com/zaineb1802" class="btn", target="_blank">See More</a>
         </div>
@@ -255,4 +274,4 @@
 </script>
 
 </body>
-</html> 
+</html>
